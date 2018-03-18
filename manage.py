@@ -22,9 +22,11 @@ if __name__ == "__main__":
     
     port = int(os.environ.get("PORT", 5000))
     args = [a for a in sys.argv]
-    args.append("0.0.0.0:"+str(port))
+
+    if(len(args )>=2 and args[1] == "runserver"):
+        args.append("0.0.0.0:"+str(port))
     
     #sys.argv.append("0.0.0.0:5000")
-    #print(sys.argv)
+    print(sys.argv)
     execute_from_command_line(args)
 

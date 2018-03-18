@@ -1,0 +1,6 @@
+{
+  "name": "BGulage",
+  "description": "WELCOME TO GULAG!!!",
+  "image": "heroku/python",
+  "repository": "https://github.com/matveich/BGulage",
+}

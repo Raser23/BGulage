@@ -1,0 +1,26 @@
+#signup-form{
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    width: 25%;
+}
+
+.form_field{
+    position: absolute;
+    margin: 3px;
+    right: 0%;
+}
+
+.field_label{
+    line-height: 30px;
+}
+
+.submit_button{
+    position: absolute;
+    left: 70%;
+    bottom: -15%;
+}
+
+div{
+    display: block;
+}

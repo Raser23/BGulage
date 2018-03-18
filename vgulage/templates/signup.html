@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+{% load static %}
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'vgulage\\css\\index.css' %}">
+	<link rel="shortcut icon" type="image/png" href="{% static 'vgulage\\images\\icon.png' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'vgulage\\css\\signup.css' %}">
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+</head>
+<body>
+    <div id = "page_header" class ='gradient'>
+        <img id = "logo" src="{% static 'vgulage\\images\\logo.png' %}" >
+    </div>
+    <div id="signup-form">
+        <form method="post" action="">
+            {% csrf_token %}
+            {% for field in form %}
+                <label class="field_label" for="{{ field.name }}">{{ field.label }}</label>
+                {{ field }}
+            {% endfor %}
+            <input class="submit_button" type="submit" value="Зарегистрироваться">
+        </form>
+    </div>
+</body>
+</html>

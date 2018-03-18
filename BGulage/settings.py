@@ -25,7 +25,7 @@ SECRET_KEY = '7z_$ur&in)c6*0reg110-+6&s3$0x2qvf6^ugekxdmp!qs1aj%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['bgulage.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['bgulage.herokuapp.com', '127.0.0.1','0.0.0.0']
 
 
 # Application definition

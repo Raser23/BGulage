@@ -19,4 +19,12 @@ if __name__ == "__main__":
                 "forget to activate a virtual environment?"
             )
         raise
-    execute_from_command_line(sys.argv)
+    
+    port = int(os.environ.get("PORT", 5000))
+    args = [a for a in sys.argv]
+    args.append("0.0.0.0:"+str(port))
+    
+    #sys.argv.append("0.0.0.0:5000")
+    #print(sys.argv)
+    execute_from_command_line(args)
+

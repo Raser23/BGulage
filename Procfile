@@ -1,1 +1,1 @@
-web: gunicorn BGulage.wsgi
+web: python manage.py runserver

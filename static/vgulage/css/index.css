@@ -1,6 +1,6 @@
 #page_header{
-	background-color:#ff0000;
-	position: relative;
+    background-color:#ff0000;
+    position: relative;
   height: 42px;
   margin: 0 auto;
   font-size: 12.5px;
@@ -8,13 +8,13 @@
   position: fixed;
   top: 0;
   left: 0;
-	width: 100%;
-	border:0;
+    width: 100%;
+    border:0;
 }
 
 #logo{
-	height: 42px;
-	margin-left: 100px;
+    height: 42px;
+    margin-left: 100px;
 }
 
 #side_bar{
@@ -35,10 +35,7 @@
     margin-left: -8px;
 }
 
-li:focus{
-    color: red;
-    width:1000px;
-}
+
 
 li {
     display: list-item;
@@ -61,6 +58,8 @@ ol {
 .left_fixer, .left_fixer>span {
     display: block;
 }
+
+
 
 .scroll_fix {
     position: relative;
@@ -341,3 +340,15 @@ h2 {
     -webkit-margin-end: 0px;
     font-weight: bold;
 }
+#side_bar ol li .left_row:hover {
+    background: #e1e5eb;
+    text-decoration: none;
+    border-radius: 2px;
+}
+a {
+    color: #2a5885;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+

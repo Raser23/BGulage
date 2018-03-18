@@ -35,10 +35,7 @@
     margin-left: -8px;
 }
 
-li:focus{
-    color: red;
-    width:1000px;
-}
+
 
 li {
     display: list-item;
@@ -61,6 +58,8 @@ ol {
 .left_fixer, .left_fixer>span {
     display: block;
 }
+
+
 
 .scroll_fix {
     position: relative;
@@ -341,3 +340,15 @@ h2 {
     -webkit-margin-end: 0px;
     font-weight: bold;
 }
+#side_bar ol li .left_row:hover {
+    background: #e1e5eb;
+    text-decoration: none;
+    border-radius: 2px;
+}
+a {
+    color: #2a5885;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
